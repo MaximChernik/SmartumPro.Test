@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Open Circles</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <link href="css/base.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">
+            <div class="logo-img icon"></div>
+            <span class="logo-text">Open Circles</span>
+        </a>
+
+        <div class="topMenu">
+            <ul class="topMenu-left">
+                <li class="btnMenu">
+                    <input type="checkbox" id="menuTrigger" class="menuTrigger" />
+                    <label for="menuTrigger" class="menuImg icon" id="menuTriggerIcon"></label>
+                </li>
+                <li class="userList">
+                    <div class="userTitle">User List</div>
+                    <div class="userCount">274 users</div>
+                </li>
+            </ul>
+
+            <ul class="topMenu-right">
+                <li class="btnFilter">
+                    <a href="#">Table Filter</a>
+                </li>
+                <li class="btnProfile">
+                    <a href="#">Profile
+                        <div class="arrow icon"></div>
+                    </a>
+                </li>
+            </ul>
+
+            <div class=search-box>
+                <form action="#" method="post" class="searchForm">
+                    <input type="search" name="search" placeholder="Search" class="search-input" />
+                    <a href="#" class="btnSearch icon"></a>
+                </form>
+            </div>
+        </div>
+    </header>
+
+    <div class="tabs">
+        <nav class="nav-box">
+            <ul class="tabs-caption">
+                <li class="link-box active">
+                    <a class="link">
+                        <div class="user img icon"></div>
+                        <span class="link-text">Users List</span>
+                    </a>
+                </li>
+                <li class="link-box">
+                    <a class="link">
+                        <div class="daily img icon"></div>
+                        <span class="link-text">Daily</span>
+                    </a>
+                </li>
+                <li class="link-box">
+                    <a class="link">
+                        <div class="brainstorm img icon"></div>
+                        <span class="link-text">Brainstorm</span>
+                    </a>
+                </li>
+                <li class="link-box">
+                    <a class="link">
+                        <div class="course img icon"></div>
+                        <span class="link-text">Course</span>
+                    </a>
+                </li>
+                <li class="link-box">
+                    <a class="link">
+                        <div class="leveling img icon"></div>
+                        <span class="link-text">Leveling System</span>
+                    </a>
+                </li>
+                <li class="link-box">
+                    <a class="link">
+                        <div class="lStream img icon"></div>
+                        <span class="link-text">Live Stream</span>
+                    </a>
+                </li>
+                <li class="link-box">
+                    <a class="link">
+                        <div class="advanced img icon"></div>
+                        <span class="link-text">Advanced</span>
+                    </a>
+                </li>
+                <li class="link-box">
+                    <a class="link">
+                        <div class="vAnalytics img icon"></div>
+                        <span class="link-text">Video Analytics</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="tabs-content active">
+            <table class="table-tab1">
+                <tr class="table-title">
+                    <th class="column c1">E-mail</th>
+                    <th class="column c2">Name</th>
+                    <th class="column c3">Type</th>
+                    <th class="column c4">Company</th>
+                    <th class="column c5">Country</th>
+                    <th class="column c6 end">Subscription</th>
+                </tr>
+                <tr class="table-row">
+                    <th class="column c1">leffler.karelle@marcellus.net</th>
+                    <th class="column c2">
+                        <span class="firstN">Lewis</span>
+                        <span class="lastN">Taylor</span>
+                    </th>
+                    <th class="column c3">Business</th>
+                    <th class="column c4">green</th>
+                    <th class="column c5">Korea</th>
+                    <th class="column c6 end">11/02/2016</th>
+                </tr>
+                <tr class="table-row">
+                    <th class="column c1">karolann_walker@yahoo.com</th>
+                    <th class="column c2">
+                        <span class="firstN">Katherine</span>
+                        <span class="lastN">Rogers</span>
+                    </th>
+                    <th class="column c3">Business</th>
+                    <th class="column c4">olive</th>
+                    <th class="column c5">Rwanda</th>
+                    <th class="column c6 end">11/02/2016</th>
+                </tr>
+                <tr class="table-row">
+                    <th class="column c1">karolann_walker@yahoo.com</th>
+                    <th class="column c2">
+                        <span class="firstN">Katherine</span>
+                        <span class="lastN">Rogers</span>
+                    </th>
+                    <th class="column c3">Business</th>
+                    <th class="column c4">olive</th>
+                    <th class="column c5">Rwanda</th>
+                    <th class="column c6 end">11/02/2016</th>
+                </tr>
+                <tr class="table-row">
+                    <th class="column c1">karolann_walker@yahoo.com</th>
+                    <th class="column c2">
+                        <span class="firstN">Katherine</span>
+                        <span class="lastN">Rogers</span>
+                    </th>
+                    <th class="column c3">Business</th>
+                    <th class="column c4">olive</th>
+                    <th class="column c5">Rwanda</th>
+                    <th class="column c6 end">11/02/2016</th>
+                </tr>
+                <tr class="table-row">
+                    <th class="column c1">karolann_walker@yahoo.com</th>
+                    <th class="column c2">
+                        <span class="firstN">Katherine</span>
+                        <span class="lastN">Rogers</span>
+                    </th>
+                    <th class="column c3">Business</th>
+                    <th class="column c4">olive</th>
+                    <th class="column c5">Rwanda</th>
+                    <th class="column c6 end">11/02/2016</th>
+                </tr>
+                <tr class="table-row">
+                    <th class="column c1">karolann_walker@yahoo.com</th>
+                    <th class="column c2">
+                        <span class="firstN">Katherine</span>
+                        <span class="lastN">Rogers</span>
+                    </th>
+                    <th class="column c3">Business</th>
+                    <th class="column c4">olive</th>
+                    <th class="column c5">Rwanda</th>
+                    <th class="column c6 end">11/02/2016</th>
+                </tr>
+                <tr class="table-row">
+                    <th class="column c1">karolann_walker@yahoo.com</th>
+                    <th class="column c2">
+                        <span class="firstN">Katherine</span>
+                        <span class="lastN">Rogers</span>
+                    </th>
+                    <th class="column c3">Business</th>
+                    <th class="column c4">olive</th>
+                    <th class="column c5">Rwanda</th>
+                    <th class="column c6 end">11/02/2016</th>
+                </tr>
+                <tr class="table-row">
+                    <th class="column c1">karolann_walker@yahoo.com</th>
+                    <th class="column c2">
+                        <span class="firstN">Katherine</span>
+                        <span class="lastN">Rogers</span>
+                    </th>
+                    <th class="column c3">Business</th>
+                    <th class="column c4">olive</th>
+                    <th class="column c5">Rwanda</th>
+                    <th class="column c6 end">11/02/2016</th>
+                </tr>
+            </table>
+
+            <a class="showMore">Show More</a>
+        </div>
+
+        <div class="tabs-content">
+            <p>TAB2</p>
+        </div>
+        <div class="tabs-content">
+            <p>TAB3</p>
+        </div>
+        <div class="tabs-content">
+            <p>TAB4</p>
+        </div>
+        <div class="tabs-content">
+            <p>TAB5</p>
+        </div>
+        <div class="tabs-content">
+            <p>TAB6</p>
+        </div>
+        <div class="tabs-content">
+            <p>TAB7</p>
+        </div>
+        <div class="tabs-content">
+            <p>TAB8</p>
+        </div>
+    </div>
+
+    <div class="popup">
+        <div class="popup-content">
+            <div class="popup-header">
+                <div class="heder-title">
+                    <div class="editName">
+                        Edit %name%
+                    </div>
+                    <div class="editId">
+                        unique ID - 435325325
+                    </div>
+                </div>
+                <a href="#" class="hide-popup icon"></a>
+            </div>
+
+            <div class="edit-content">
+                <div class="pRow">
+                    <div class="pField e-mail">
+                        <div class="title-field">E-mail</div>
+                        <input type="text" size="40" class="input-popup">
+                    </div>
+                    <div class="pField fName">
+                        <div class="title-field">First Name</div>
+                        <input type="text" size="40" class="input-popup">
+                    </div>
+                    <div class="pField lName">
+                        <div class="title-field">Last Name</div>
+                        <input type="text" size="40" class="input-popup">
+                    </div>
+                </div>
+
+                <div class="pRow">
+                    <div class="pField country">
+                        <div class="title-field">Country</div>
+                        <input type="text" size="40" class="input-popup">
+                    </div>
+                    <div class="pField company">
+                        <div class="title-field">Company</div>
+                        <input type="text" size="40" class="input-popup">
+                    </div>
+                </div>
+
+                <div class="pRow">
+                    <div class="pField type">
+                        <div class="title-field">Type</div>
+                        <select class="select-popup">
+                            <option>Type 1</option>
+                            <option>Type 2</option>
+                            <option>Type 3</option>
+                        </select>
+                        <a href="" class="pArrow icon"></a>
+                    </div>
+                    <div class="pField level">
+                        <div class="title-field">Level</div>
+                        <select class="select-popup">
+                            <option>Level 1</option>
+                            <option>Level 2</option>
+                            <option>Level 3</option>
+                        </select>
+                        <a href="" class="pArrow icon"></a>
+                    </div>
+                    <div class="pField validated">
+                        <div class="title-field">Validated</div>
+                        <select class="select-popup">
+                            <option>Yes</option>
+                            <option>No</option>
+                        </select>
+                        <a href="" class="pArrow icon"></a>
+                    </div>
+                    <div class="pField coins">
+                        <div class="title-field">Coins</div>
+                        <input type="text" size="40" class="input-popup">
+                    </div>
+                </div>
+
+                <div class="pRow cntrl">
+                    <div class="pStat">
+                        <div class="sType">
+                            Subscription type -
+                            <span class="sType-count">99.99</span>
+                        </div>
+                        <div class="sDate">
+                            Subscription date -
+                            <span class="sDate-date">11/02/2016</span>
+                        </div>
+                    </div>
+
+                    <div class="pBtns-box">
+                        <a href="#" class="pBtn reset">Reset Password</a>
+                        <a href="#" class="pBtn revoke">Revoke Access</a>
+                        <a href="#" class="pBtn save">Save</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/menu.js"></script>
+    <script src="js/tabs.js"></script>
+    <script src="js/popup.js"></script>
+</body>
+
+</html>
