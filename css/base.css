@@ -311,7 +311,6 @@ header{
     border-spacing: 0px 0px;
     width: 100%;
     background: #fff;
-    text-align: left;
 }
 
 .table-row:nth-child(2n){
@@ -324,6 +323,7 @@ header{
     overflow: hidden;
     white-space: nowrap;
     cursor: pointer;
+    text-align: left;
 }
 
 .table-title .column{
